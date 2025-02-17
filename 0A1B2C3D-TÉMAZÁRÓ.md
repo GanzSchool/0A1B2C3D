@@ -1,4 +1,4 @@
-## Témazáró | Bevezetés a JavaScriptbe
+## TÉMAZÁRÓ | Bevezetés a JavaScriptbe | 0A1B2C3D
 
 #### Számok összege
 
