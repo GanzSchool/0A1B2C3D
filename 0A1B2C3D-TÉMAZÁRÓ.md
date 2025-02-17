@@ -1,11 +1,7 @@
 ## Témazáró | Bevezetés a JavaScriptbe
-#### Number - Variables
-
-
 
 #### Számok összege
 
-Adj össze három egész számot: 3, 15 és 20. Írasd ki az eredményt a konzolra.
 
 ```js
 let összeadás = 3 [1] 15 [2] 20;
@@ -17,8 +13,6 @@ let összeadás = 3 [1] 15 [2] 20;
 #### Kör kerülete
 
 Egy kör sugara 15 egység. Számítsd ki a kör kerületét az alábbi képlettel:
-
-
 
 ```js
 let radius = [4]; 
@@ -32,18 +26,16 @@ let circumference = 2 * [5] * [6];
 
 ## Adó kiszámítás
 
-Egy termék ára 19,99 Ft, az ÁFA 27%. Számítsd ki és írasd ki:
+Egy termék ára 15,22 Ft, az ÁFA 22%. Számítsd ki és írasd ki az adó mértékét és a bruttó összeget!
 
-Az ÁFA összegét.
-A termék végső árát ÁFA-val együtt.
 
 
 ```js
-let price = 19.99; 
-let taxRate = 0.27; 
+let price = 15,22;
+let taxRate = 0.22;
 
 let taxAmount = [10] * [11]; 
-let finalPrice = [12] + [13]; 
+let finalPrice = [12] + [13];
 
 console.log([14]);
 console.log([15]);
@@ -55,15 +47,14 @@ console.log([15]);
 
 Egy banki befektetés 100,000 Ft, az éves kamatláb 5%, és a pénz 3 évig kamatozik. Számítsd ki, hogy mennyi lesz a befektetés értéke a 3 év után.
 
-
 ```js
-let principal = 100000; 
-let interestRate = 0.05; 
+let principal = 100000; // Befektetés összege
+let interestRate = 0.05; // Éves kamatláb (5%)
 let years = 3; // Évek száma
 
-let totalAmount = principal * [16]; 
+let totalAmount = principal * [16]; // Kamatos kamat képlet
 
-console.log([17]);
+console.log(`A befektetés értéke 3 év után: [17] Ft`);
 ```
 
 ---
@@ -76,12 +67,12 @@ A Hold távolsága a Földtől körülbelül 384,400 km, a fény sebessége 299,
 Számítsd ki, mennyi idő alatt ér el a fény a Holdról a Földre másodpercben.
 
 ```js
-let moonDistance = 384400; 
-let lightSpeed = 299792; 
+let moonDistance = 384400;
+let lightSpeed = 299792;
 
-let travelTime = [18] / [19]; 
+let travelTime = [18] / [19];
 
-console.log([20]);
+console.log(`A fény utazási ideje a Holdtól a Földig: [20] másodperc`);
 ```
 
 ---
@@ -91,14 +82,15 @@ console.log([20]);
 Válaszd ki a legkisebb értéket a következő számok közül: 34, 8, 19.
 
 ```js
-const result7 = [21];
-console.log([22]);
+const result7 = [21](34, 8, 19);
+console.log(`A legkisebb szám: [22]`);
 ```
 ---
 
 ## Template Literals
 
 Van két változód: a = "Alice" és b = 25. Írj ki egy mondatot a konzolra a következő formátumban:
+"Alice 25 éves." (Használj template literált.)
 
 ```js
 const a = "Alice";
@@ -108,9 +100,10 @@ console.log([23]);
 
 ---
 
+
 ## Összehasonlítás
 
-észíts egy JavaScript kódot, ami két számot hasonlít össze, és kiírja, hogy az első szám nagyobb-e a másodiknál. Ha igaz, akkor a "Az első szám nagyobb" üzenet jelenjen meg, különben a "Az első szám nem nagyobb" üzenet
+Az alábbi kód két számot hasonlít össze, és kiírja, hogy az első szám nagyobb-e a másodiknál. Ha igaz, akkor a "Az első szám nagyobb" üzenet jelenjen meg, különben a "Az első szám nem nagyobb" üzenet.
 
 ```js
 let a = 10;
@@ -126,7 +119,7 @@ console.log("Az első szám nem nagyobb");
 
 ## Páros vagy páratlan
 
-Írj egy kódot, amely ellenőrzi, hogy egy adott szám páratlan vagy páros. A kimenet "Páros" vagy "Páratlan" legyen, a szám alapján.
+Az alábbi kód ellenőrzi, hogy egy adott szám páratlan vagy páros. A kimenet "Páros" vagy "Páratlan" legyen, a szám alapján.
 
 
 ```js
@@ -153,22 +146,13 @@ let nev2 = "Anna";
 ```
 
 ---
- ## null or undefined
-
- mi lesz a várható eredmény és miért?
-
- [34](null == undefined)
-
- [35](null === undefined)
-
----
 
 
 ## Profil beállításai – Hiányzó tulajdonságok kezelése
 
-Hozz létre egy userProfile nevű objektumot, amely egy name tulajdonságot tartalmaz.
+Az alábbi kód egy userProfile nevű objektum szerepel, amely egy name tulajdonságot tartalmaz.
 Ellenőrizd, hogy van-e email tulajdonsága az objektumnak.
-Ha nincs email tulajdonság (azaz az undefined), írj ki egy üzenetet: "Az e-mail cím nincs beállítva."
+Ha nincs email tulajdonság (undefined), írj ki egy üzenetet: "Az e-mail cím nincs beállítva."
 Ha van email, írd ki: "Felhasználó e-mail címe: X" (ahol X az e-mail címe).
 
 ```js
@@ -186,25 +170,25 @@ let userProfile = {
 
 ## Globális változó
 
-ezek közül melyik egy globális és melyik egy blokk szintű változó:
+
 
 
 
 [39]
 ```js
 var változó1 = "Hello, world!";
-console.log(window.változó1); // "Hello, world!"
+console.log(window.változó1);
 ```
 
 [40]
 ```js
 function myFunction() {
   var változó2 = { name: "John", age: 30 };
-  console.log(változó2.name);  // "John"
+  console.log(változó2.name); 
 }
 
 myFunction();
-console.log(változó2);  // Error: localObj is not defined
+console.log(változó2);
 ```
 
 ---
@@ -271,7 +255,7 @@ console.log(változó2);  // Error: localObj is not defined
             [54];
         }
 
-        [55].[getElementById]([56]).innerText = `"[57]" - [58]`;
+        [55].[56]([57]).innerText = `"[58]" - [59]`;
     </script>
 </body>
 </html>
