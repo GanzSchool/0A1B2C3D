@@ -18,12 +18,11 @@ let összeadás = 3 [1] 15 [2] 20;
 
 Egy kör sugara 15 egység. Számítsd ki a kör kerületét az alábbi képlettel:
 
-Kerület = 2 × r × π
-👉 Használj Math.PI-t a π értékére.
+
 
 ```js
-let radius = [4]; // A kör sugara
-let circumference = 2 * [5] * [6]; // Kör kerülete
+let radius = [4]; 
+let circumference = 2 * [5] * [6]; 
 
 [7](`A kör kerülete: [8].[9] egység`);
 ```
@@ -37,14 +36,14 @@ Egy termék ára 19,99 Ft, az ÁFA 27%. Számítsd ki és írasd ki:
 
 Az ÁFA összegét.
 A termék végső árát ÁFA-val együtt.
-👉 Tipp: Használj toFixed()-et a kerekítéshez. Kerekítsd az eredményeket két tizedesjegyre.
+
 
 ```js
-let price = 19.99; // Termék ára
-let taxRate = 0.27; // ÁFA-kulcs (27%)
+let price = 19.99; 
+let taxRate = 0.27; 
 
-let taxAmount = [10] * [11]; // ÁFA összege
-let finalPrice = [12] + [13]; // Végső ár ÁFA-val együtt
+let taxAmount = [10] * [11]; 
+let finalPrice = [12] + [13]; 
 
 console.log([14]);
 console.log([15]);
@@ -56,14 +55,13 @@ console.log([15]);
 
 Egy banki befektetés 100,000 Ft, az éves kamatláb 5%, és a pénz 3 évig kamatozik. Számítsd ki, hogy mennyi lesz a befektetés értéke a 3 év után.
 
-👉 Képlet: Végösszeg = befektetés × (1 + kamatláb)^évek. Használd a Math.pow() metódust a hatványozás kiszámítására.
 
 ```js
-let principal = 100000; // Befektetés összege
-let interestRate = 0.05; // Éves kamatláb (5%)
+let principal = 100000; 
+let interestRate = 0.05; 
 let years = 3; // Évek száma
 
-let totalAmount = principal * [16]; // Kamatos kamat képlet
+let totalAmount = principal * [16]; 
 
 console.log([17]);
 ```
@@ -78,10 +76,10 @@ A Hold távolsága a Földtől körülbelül 384,400 km, a fény sebessége 299,
 Számítsd ki, mennyi idő alatt ér el a fény a Holdról a Földre másodpercben.
 
 ```js
-let moonDistance = 384400; // Hold távolsága km-ben
-let lightSpeed = 299792; // Fény sebessége km/s-ban
+let moonDistance = 384400; 
+let lightSpeed = 299792; 
 
-let travelTime = [18] / [19]; // Idő = távolság / sebesség
+let travelTime = [18] / [19]; 
 
 console.log([20]);
 ```
@@ -93,19 +91,18 @@ console.log([20]);
 Válaszd ki a legkisebb értéket a következő számok közül: 34, 8, 19.
 
 ```js
-const result7 = [21](34, 8, 19);
+const result7 = [21];
 console.log([22]);
 ```
 ---
 
 ## Template Literals
 
-Van két változód: name = "Alice" és age = 25. Írj ki egy mondatot a konzolra a következő formátumban:
-"Alice 25 éves." (Használj template literált.)
+Van két változód: a = "Alice" és b = 25. Írj ki egy mondatot a konzolra a következő formátumban:
 
 ```js
-const name = "Alice";
-const age = 25;
+const a = "Alice";
+const b = 25;
 console.log([23]);
 ```
 
