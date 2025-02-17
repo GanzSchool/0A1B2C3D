@@ -218,7 +218,7 @@ console.log(localObj);  // Error: localObj is not defined
 
 ---
 
-## nagy feladat
+## final boss
 
 ```html
 <!DOCTYPE html>
