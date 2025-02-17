@@ -111,15 +111,6 @@ console.log([23]);
 
 ---
 
-## Falsy Truea
-
-Ezek közül add meg melyik treethy és melyik falshy
-
-[24]
-
----
-
-
 ## Összehasonlítás
 
 észíts egy JavaScript kódot, ami két számot hasonlít össze, és kiírja, hogy az első szám nagyobb-e a másodiknál. Ha igaz, akkor a "Az első szám nagyobb" üzenet jelenjen meg, különben a "Az első szám nem nagyobb" üzenet
